@@ -1,0 +1,25 @@
+<html>
+    <head>Updating the datas of array by push 
+        <title>
+            JAva Script
+        </title>
+    </head>
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <script>
+            cities =["Namakkal","Chennai","Tuticorin","Paris","Sydney"];
+            cities.push("Tirupur")
+            document.getElementById("p1").innerHTML=cities;
+
+            cities[cities.length]=["London"]
+            document.getElementById("p2").innerHTML=cities;
+
+            cities[9]=["Mumbai"];
+            cities.push("Coimbatore")
+
+            document.getElementById("p3").innerHTML=cities;
+        </script>
+    </body>
+</html>

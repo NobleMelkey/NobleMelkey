@@ -1,0 +1,46 @@
+<html>
+    <body>
+        <p>place rate the serives </p>
+        <p>
+            <label for="very-poor">
+                <input type="radio" name="rate" value="very-poor" id="very-poor">very-poor
+
+            </label>
+            <label for="poor">
+                <input type="radio" name="rate" value="poor" id="poor">poor
+
+            </label>
+            <label for="ok">
+                <input type="radio" name="rate" value="ok" id="very-poor">ok
+
+            </label>
+            <label for="good">
+                <input type="radio" name="rate" value="good" id="good">good
+
+            </label>
+            <label for="very-good">
+                <input type="radio" name="rate" value="very-good" id="very-good">very-good
+
+            </label>
+        </p>
+        <p>
+            <button id="btnRate">Submit</button>
+        </p>
+        <p id="output">
+
+        </p>
+        <script>
+            let btn=document.getElementById('btnRate');
+            let output=document.getElementById('output');
+
+            btn.addEventListener('click',()=> {
+                let rates=document.getElementsByName('rate');
+                rates.forEach((rate)=>{
+                    if(rate.checked){
+                        output.innerText=`you selected: ${rate.value}`;
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

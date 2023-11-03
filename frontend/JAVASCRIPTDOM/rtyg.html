@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            JS
+        </title>
+    </head>
+    <body>
+        <script>
+          function Validation()
+          {
+            var num= document.form.num.value;
+
+            if(isNan(num))
+            {
+                document.getElementById("numloc").innerHTML="Enter numeric value only"
+                return false
+            }
+            else
+            {
+                return true
+            }
+          }
+
+        </script>
+
+        <form name="form" onsubmit="return Validation()">
+            Number:<input type="text" name="num">
+            <span id="numloc"></span>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

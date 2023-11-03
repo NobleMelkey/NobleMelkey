@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <script>
+            const count = true;
+
+            let countValue = new Promise(function (reslove, reject)
+            {
+                if(count){
+                    reslove("there is a count value")
+                }
+                else{
+                    reject("this is not reject count value")
+                }
+            });
+            console.log(countValue)
+        </script>
+    </body>
+</html>

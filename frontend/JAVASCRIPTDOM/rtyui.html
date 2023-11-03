@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            JS
+        </title>
+    </head>
+    <body>
+        <script>
+            function person()
+            {
+                this.name ='noble'
+            }
+            person.prototype.age=20;
+
+            const person1= new person();
+
+            console.log(person1.age)
+            person.prototype={age :50}
+            const person2= new person();
+            console.log(person2.age)
+
+
+        </script>
+    </body>
+</html>

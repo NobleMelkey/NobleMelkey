@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <titlle>
+            JS
+        </titlle>
+    </head>
+    <body>
+        <script>
+            function fib(n,a,b)
+            {
+               if(n==0)
+               {
+                console.log("End")
+               }
+               else
+               {
+                sum=a+b;
+                console.log(sum);
+                a=b;
+                b=sum;
+                fib(n-1,a,b)
+               }
+
+               console.log(0)
+               console.log(1)
+               n=prompt("Enter the number")
+               fib(n,0,1)
+            }
+        </script>
+    </body>
+</html>

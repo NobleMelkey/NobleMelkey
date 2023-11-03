@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            JS
+        </title>
+    </head>
+    <body>
+        <script>
+            function Person(firstName,Lastname)
+            {
+                this.firstName=firstName;
+                this.Lastname=Lastname
+
+                this.getfullname=function()
+                {
+                    console.log(this.firstName+" "+this.Lastname)
+                }
+
+
+            }
+            let obj= new Person('noble','melkey')
+            console.log(obj);
+
+            obj.getfullname();
+        </script>
+    </body>
+</html>

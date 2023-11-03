@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <script>
+              function box(height,width){
+            this.height=height;
+            this.width=width;
+        }
+        function Widget(height,width,color){
+            box.call(this,height,width)
+            this.color=color;
+        }
+        let widget =new Widget(100,200,'blue')
+        </script>
+    </body>
+</html>

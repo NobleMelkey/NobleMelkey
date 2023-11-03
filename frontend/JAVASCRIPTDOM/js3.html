@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Java Script
+        </title>
+    </head>
+    <body>
+        <h1>
+            Demo:promt()
+        </h1>
+        <button onclick="save()">Click Here</button>
+        <p id="p1"></p>
+        <script>
+         function save()
+         {
+            var name=prompt("Enter your name");
+            if(name==null||name=="")
+            {
+             document.getElementById("p1").innerHTML="You did Not enter any name..."
+            }
+            else{
+                document.getElementById("p1").innerHTML="Entered Name = "+name;
+            }
+         }
+        </script>
+    </body>
+</html>

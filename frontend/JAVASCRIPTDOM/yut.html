@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            JS
+        </title>
+    </head>
+    <body>
+        <script>
+            function person()
+            {
+                this.name='noble'
+                this.age=23
+            }
+
+            const person1= new person();
+            const person2= new person();
+
+            person.prototype.gender='Male'
+
+            console.log(person.prototype)
+            console.log(person1.gender)
+            console.log(person2.gender)
+
+
+        </script>
+    </body>
+</html>

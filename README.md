@@ -9,7 +9,7 @@
 <h1>👨🏻‍💻 About Me:</h1>
 <br>
 
-🙋‍♂️ All about me is at <a href="https://nobleportfolio.netlify.app/">My Portfolio</a><br>
+🙋‍♂️ All about me is at <a href="https://portfolio-noble.netlify.app/">My Portfolio</a><br>
 🌱 I’m currently learning<br>
 🤔 I’m looking for job<br>
 👨‍💻 Life Hack: Learn new tech 🔥 and share what you have learned 🎉<br>
